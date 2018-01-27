@@ -1,4 +1,6 @@
 # SpringBoard2
+제작 기간 : 2018-01-27 ~
+
 간단한 MVC 스프링 게시판
 
 Springboard 프로젝트에서 부족하였던 부분들을 <br>
