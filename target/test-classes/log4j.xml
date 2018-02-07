@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.jtorol.com">
+	<logger name="com.jt3205.controller">
 		<level value="info" />
 	</logger>
 	

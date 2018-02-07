@@ -1,4 +1,4 @@
-package com.jtorol.com;
+package com.jt3205.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
