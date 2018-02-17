@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.jt3205.domain.UserVO;
 
@@ -33,5 +34,14 @@ public class TestController {
 		vo.setUpw("1234");
 		vo.setUname("박형진");
 		model.addAttribute("user", vo);
+	}
+	
+	@RequestMapping("getJSON")
+	public @ResponseBody UserVO getJSON() {
+		UserVO vo = new UserVO();
+		vo.setUid("jt3205");
+		vo.setUpw("1234");
+		vo.setUname("박형진");
+		return vo;
 	}
 }
